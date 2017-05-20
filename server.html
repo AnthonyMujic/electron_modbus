@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Modbus Server</title>
+  <link rel="stylesheet" href="./css/photon.css">
+</head>
+<body>
+
+  <div class="window">
+    <div class="window-content">
+      <div class="pane-group">
+        <div class="pane">
+          <div class="padded-more">
+            <h2>Server Details</h2>
+            <form>
+              <div class="form-group">
+                <label>IP Address</label>
+                <input type="text" disabled class="form-control" placeholder="127.0.0.1" id="ipaddress" value="127.0.0.1"><br>
+              </div>
+
+              <div class="form-group">
+                <label>Port</label>
+                <input type="text" class="form-control" placeholder="8888" id="port" value="8502"><br>
+              </div>
+
+              <div class="form-group">
+                <label>Number of Coils</label>
+                <input type="text" class="form-control" placeholder="1024" id="number_of_coils" value="16"><br>
+              </div>
+
+              <div class="form-group">
+                <label>Number of Registers</label>
+                <input type="text" class="form-control" placeholder="1024" id="number_of_registers" value="16"><br>
+              </div>
+
+              <div class="form-actions">
+                  <button type="submit" id="submitServerButton" class="btn btn-form btn-primary">Start Server</button>
+                  <button type="submit" id="endServerButton" class="btn btn-form btn-primary">Destroy Server</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+        <div id="main-pane">
+
+        </div>
+
+        <script>require('./server.js')</script>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

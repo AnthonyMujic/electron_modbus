@@ -1,0 +1,11 @@
+{
+  "name": "electron_modbus",
+  "version": "0.0.1",
+  "description": "modbus server and client desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "am",
+  "license": "ISC"
+}
