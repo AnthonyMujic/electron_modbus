@@ -12,6 +12,10 @@ function createWindow(){
   win = new BrowserWindow({width:300, height:400})
   win.loadURL(`file://${__dirname}/index.html`)
 //  win.webContents.openDevTools()
+
+  win.on('closed', () => {
+    win = null
+  })
 }
 
 app.on('ready', () => {
@@ -26,6 +30,10 @@ app.on('ready', () => {
     openClientWindow()
     win.close()
   })
+})
+
+app.on('window-all-closed', () => {
+  app.quit()
 })
 
 function openServerWindow(){

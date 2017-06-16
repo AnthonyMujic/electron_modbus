@@ -4,8 +4,17 @@
   "description": "modbus server and client desktop application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . Linuxapp --platform=linux --arch=x64"
   },
   "author": "am",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.10"
+  },
+  "dependencies" : {
+    "stampit": "^2.1.2",
+    "jsmodbus": "^2.1.0"
+  }
+
 }
