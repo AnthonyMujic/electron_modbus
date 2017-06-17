@@ -3,6 +3,7 @@ Electron_Modbus
 Desktop application to used to test Modbus TCP.
 This application uses [jsmodbus](https://github.com/Cloud-Automation/node-modbus) and [electron](https://electron.atom.io/).
 
+
 Getting up and running
 ----------------------
 No need to have node or electron installed, simply unzip into the correct locations and run:
@@ -12,10 +13,14 @@ No need to have node or electron installed, simply unzip into the correct locati
 4. Unzip it into the electron_modbus/resources folder.
 5. Double click on electron_modbus/electron file.
 
+
 Contribution
 ------------
 This application is very immature. If you find it useful, or would like to help make it better, let me know.
 
+
+License
+-------
 Copyright (c) 2017 Anthony Mujic
 
 Permission to use, copy, modify, and/or distribute this software for any
