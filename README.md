@@ -8,10 +8,11 @@ Getting up and running
 ----------------------
 No need to have node or electron installed, simply unzip into the correct locations and run:
 1. Download the [electron zip](https://github.com/electron/electron/releases/tag/v1.6.11) for your operatring system.
-2. Unzip the file into a folder named electron_modbus.
+2. Unzip the file into a folder named electron_modbus_app.
 3. Download a zip of this repository.
 4. Unzip it into the electron_modbus/resources folder.
-5. Double click on electron_modbus/electron file.
+5. Rename the electron_modbus-master folder to app. The contents of this repository should be in the electron_modbus/resources/app/ directory.
+6. Double click on electron_modbus/electron file.
 
 
 Contribution
