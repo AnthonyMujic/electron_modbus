@@ -1,6 +1,6 @@
 Electron_Modbus
 ===============
-Desktop application to used to test Modbus TCP.
+Desktop application to used test Modbus TCP.
 This application uses [jsmodbus](https://github.com/Cloud-Automation/node-modbus) and [electron](https://electron.atom.io/).
 
 
