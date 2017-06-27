@@ -2,6 +2,7 @@ var modbus = require('jsmodbus');
 
 var client;
 var coils = [];
+var registers = [];
 
 module.exports.client = function(arg){
   client = modbus.client.tcp.complete({
@@ -9,7 +10,6 @@ module.exports.client = function(arg){
           'port'              : arg.port,
           num_coils           : arg.coils,
           'logEnabled'        : true,
-  //        'logLevel'          : 'debug',
           'logTimestamp'      : true,
           'autoReconnect'     : true,
           'reconnectTimeout'  : 1000,
